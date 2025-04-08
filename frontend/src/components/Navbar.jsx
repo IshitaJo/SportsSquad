@@ -12,8 +12,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-600 p-4 flex justify-between items-center">
-      <Link to="/" className="text-white text-2xl font-bold">SportSquad</Link>
+    <nav className="bg-gray-700 p-2 pl-5 flex justify-between items-center">
+      <Link to="/" className="text-white text-2xl font-bold">Sportify</Link>
       {isAuth && (
         <div className="flex items-center">
           <span className="text-white mr-4">{user.name}</span>
